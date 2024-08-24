@@ -19,7 +19,7 @@ func GetDBCollection(col string)*mongo.Collection{
 }
 
 func InitDB() error{
-	uri:=os.Getenv("MONGODB_URI")
+	uri:=os.Getenv("MONGO_URI")
 	if uri == " "{
 		return errors.New("db uri missing")
 	}
@@ -30,7 +30,7 @@ func InitDB() error{
 		return err
 	}
 
-	db = client.Database("myinfo")
+	db = client.Database("Myinfo")
 
 	return nil
 }
