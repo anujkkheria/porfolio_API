@@ -1,4 +1,4 @@
-package Blogs
+package blogs
 
 import (
 	"github.com/gofiber/fiber/v2"
