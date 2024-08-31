@@ -9,6 +9,7 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/recover"
 	"github.com/portfolio_API/common"
 	blogs "github.com/portfolio_API/routers/blogs"
+	projects "github.com/portfolio_API/routers/projects"
 )
 
 
@@ -53,7 +54,7 @@ func Server() error{
 	// blogs.Post("/create", CreateBlogs())
 	
 	blogs.Blogs(app)
-
+projects.Projects(app)
 
 	app.Get("/", func(c *fiber.Ctx)error{
 		fmt.Print("hi server is running")
