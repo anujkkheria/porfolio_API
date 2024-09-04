@@ -11,7 +11,7 @@ import (
 
 	func Projects(v *fiber.App){
 		projects := v.Group("/projects")
-		projects.Get("/",ProjDemoHandler)
+		projects.Get("/",handler.GetProjects)
 		projects.Post("/",handler.CreateNewProject)
-		projects.Delete("/:id",ProjDemoHandler)
+		projects.Delete("/:id",handler.DeleteProject)
 	}
