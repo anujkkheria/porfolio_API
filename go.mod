@@ -1,4 +1,4 @@
-module github.com/porfolio_API
+module github.com/anujkkheria/porfolio_API
 
 go 1.22.5
 
