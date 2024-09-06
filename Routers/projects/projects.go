@@ -1,8 +1,8 @@
 package projects
 
 import (
+	handler "github.com/anujkkheria/porfolio_API/handlers/projects"
 	"github.com/gofiber/fiber/v2"
-	handler "github.com/porfolio_API/handlers/projects"
 )
 
 	func ProjDemoHandler(c *fiber.Ctx) error{

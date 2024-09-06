@@ -10,10 +10,10 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
 	// "github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/anujkkheria/porfolio_API/common"
+	"github.com/anujkkheria/porfolio_API/common/utils"
 	"github.com/chromedp/chromedp"
 	"github.com/gofiber/fiber/v2"
-	"github.com/porfolio_API/common"
-	"github.com/porfolio_API/common/utils"
 )
 
 type ProjectBody struct{
