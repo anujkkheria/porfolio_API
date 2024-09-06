@@ -2,7 +2,7 @@ package blogs
 
 import (
 	"github.com/gofiber/fiber/v2"
-	blogsHandler "github.com/portfolio_API/handlers/blogs"
+	blogsHandler "github.com/porfolio_API/handlers/blogs"
 )
 
 func DemoHandler(c *fiber.Ctx) error{

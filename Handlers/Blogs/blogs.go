@@ -2,7 +2,7 @@ package blogs
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/portfolio_API/common"
+	"github.com/porfolio_API/common"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

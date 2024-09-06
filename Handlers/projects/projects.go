@@ -12,8 +12,8 @@ import (
 	// "github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/chromedp/chromedp"
 	"github.com/gofiber/fiber/v2"
-	"github.com/portfolio_API/common"
-	"github.com/portfolio_API/common/utils"
+	"github.com/porfolio_API/common"
+	"github.com/porfolio_API/common/utils"
 )
 
 type ProjectBody struct{

@@ -7,9 +7,9 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/recover"
-	"github.com/portfolio_API/common"
-	blogs "github.com/portfolio_API/routers/blogs"
-	projects "github.com/portfolio_API/routers/projects"
+	"github.com/porfolio_API/common"
+	blogs "github.com/porfolio_API/routers/blogs"
+	projects "github.com/porfolio_API/routers/projects"
 )
 
 
